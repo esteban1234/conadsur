@@ -1,113 +1,54 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
+<header class="contenheader">
+  <figure class="imagen pull-left">
+    <img src="../img/conadsur.png" class="img-responsive" alt="">
+  </figure>
 
-<div class="navbar navbar-default navbar-static-top contenmenu">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="">
-              <a href="../index.php"><i class="fa fa-home fa-fw"></i>&nbsp;INDEX</a>
-            </li>
-            <li  class="active">
-              <a href="nosotros.php"><i class="fa fa-users fa-fw"></i>&nbsp;NOSOTROS</a>
-            </li>
-            <li>
-              <a href="servicios.php"><i class="fa fa-cogs fa-fw"></i>&nbsp;SERVICIOS</a>
-            </li>
-            <li>
-              <a href="contacto.php"><i class="fa fa-fax fa-fw"></i>&nbsp;CONTACTO</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <article class="pull-right contentextmenu">
+    <strong class="textmenu">MENU</strong>&nbsp;<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+  </article>
+</header>
+
+<article class="bannern">
+  <p>CONOCENOS</p>
+</article>
+<article class="banner">
+<h1 class="tit">CONADSUR S.C.P</h1>
+<hr>
+  <p class="textobanner">En <strong>conadsur</strong> estamos comprometidos con la calidad del servicio que se ha caracterizado por ser profesional y contar con autobuses en perfecto estado, para que nuestros clientes viajen con plena confianza de que todo nuestro personal está capacitado para cualquier circunstancia durante el viaje. <br><br>
+  <strong>Conadsur</strong>  pone a su servicio una amplia gama de opciones para sus viajes de negocios o placer, con itinerarios programados entre destinos a cualquier parte de la república. Conadsur es su mejor opción para viajar. <br><br>
+  Viaja con nosotros y compruebe el confort y calidad de nuestros servicios.
+  </p>
+  </article>
+
+  <article class="mvvo">
+    <div class="mision">
+      <h2>Misión</h2>
+      <p>Satisfacer las necesidades y requisitos de nuestros clientes proporcionando servicios de calidad en el mercado de viajes a través del transporte turístico por tierra.</p>
     </div>
-
-    <div class="section contenimgtext">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="../img/notros3.png" class="img-responsive">
-          </div>
-          <div class="col-md-6">
-            <h1>Sobre MATENDA PROMOTORA</h1>
-            <h3>Inmobiliaria y corredores de bienes raíces</h3>
-            <p>Somos una empresa joven pero con retos,  formados por un grupo de profesionales cuyo objetivo es brindarle su apoyo y conocimiento al momento de invertir o vender un inmueble. Somos una empresa que a través de sus áreas de negocio ofrece un amplia gama de servicios inmobiliarios siguiendo los más altos estándares del ramo. <br><br>
-
-            <i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;EXCELENCIA EN EL SERVICIO INMOBILIARIO. <br><br>
-            <i class="fa fa-check-square-o" aria-hidden="true"></i>&nbsp;TENEMOS LOS ASESORES MEJORES CAPACITADOS.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="mision">
+      <h2>Visión</h2>
+      <p>Ser una empresa líder en el mercado de transportes turísticos por tierra, conservando y mejorando la calidad de todos nuestros servicios.</p>
     </div>
-
-    <h2 class="titulo"><p>¿Porque MATENDA PROMOTORA?</p></h2>
-
-     <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 cuadro"><i class="fa fa-address-book fa-5x" aria-hidden="true"></i><p class="pull-right">Asesoría hipotecaria.
-          </p></div>
-          <div class="col-md-3 cuadro"><i class="fa fa-usd fa-5x" aria-hidden="true"></i><p class="pull-right">Mejor precio del mercado.
-          </p></div>
-          <div class="col-md-3 cuadro"><i class="fa fa-street-view fa-5x" aria-hidden="true"></i><p class="pull-right">Excelentes ubicaciones.
-          </p></div>
-          <div class="col-md-3 cuadro"><i class="fa fa-line-chart fa-5x" aria-hidden="true"></i><p class="pull-right">Gran variedad en casas.
-          </p></div>
-        </div>
-      </div>
+    <div class="mision">
+      <h2>Objetivo</h2>
+      <p>Brindarle a nuestro cliente siempre los mejores servicios en el mercado de transportes turísticos por tierra con calidad, profesionalismo y el mejor precio. Ser lideres en el mercado.</p>
     </div>
-
-
-     <div class="section valores">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img src="../img/mision2.jpg"
-            class="img-responsive img-rounded">
-          </div>
-          <div class="col-md-4">
-            <h3 class="text-left tit">Misión</h3>
-            <p class="text-left">Satisfacer a nuestros clientes con un servicio personalizado y profesional, ofreciendo siempre un producto inmobiliario de alta calidad con todos los servicios relacionados con la correduría de bienes raíces.</p>
-          </div>
-          <div class="col-md-2">
-            <img src="../img/vision.jpg"
-            class="img-responsive img-rounded">
-          </div>
-          <div class="col-md-4">
-            <h3 class="text-left tit">Visión</h3>
-            <p class="text-left">Ser la empresa líder en el área de bienes raíces, ofreciendo un servicio con los más estándares de calidad y así lograr satisfacer a nuestros clientes en todas sus necesidades.</p>
-          </div>
-        </div>
-        <div class="row row2">
-          <div class="col-md-2">
-            <img src="../img/objetivo.jpg"
-            class="img-responsive img-rounded">
-          </div>
-          <div class="col-md-4">
-            <h3 class="text-left tit">Objetivo</h3>
-            <p class="text-left">Alcanzar y mantener los más altos estándares de satisfacción al cliente en el sector inmobiliario, a través de nuestros inmuebles y servicios innovadores.</p>
-          </div>
-          <div class="col-md-2">
-            <img src="../img/valores.jpg"
-            class="img-responsive img-rounded">
-          </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-left tit">Valores</h3>
-            <p class="text-left">Transparencia, Éxito, Excelencia, Comunicación, Trabajo en equipo, Formación, Consistencia, Pertenencia</p>
-          </div>
-        </div>
-      </div>
+    <div class="valores">
+      <h2>Valores</h2>
+      <p>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Responsabilidad <br>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Honestidad <br>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Compromiso <br>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Puntualidad <br>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Respeto <br>
+      <i class="fa fa-check" aria-hidden="true"></i>&nbsp;Trabajo en equipo
+      </p>
     </div>
+  </article>
+
 	
 <a class="go-top" href="#">Ir arriba</a>
 <?php include 'pie.php' ?>
