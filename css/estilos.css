@@ -15,7 +15,7 @@
     text-decoration: none;
     color: #fff;
     /*background-color: rgb(0, 0, 0, );*/
-    background-color: #C01717;
+    background-color: #000;
     font-size: 12px;
     padding: 1em;
     display: none;
@@ -298,7 +298,8 @@ hr{
 #custom_carousel .item {
 
     color:#000;
-    background-color:#eee;
+    /*background-color:#eee;*/
+    background-color: #E7EDF7;
     padding:20px 0;
 }
 #custom_carousel .controls{
@@ -317,7 +318,8 @@ hr{
     max-width:90px
 }
 #custom_carousel .controls li.active {
-    background-color:#eee;
+    /*background-color:#eee;*/
+    background-color: #E7EDF7;
     border-top:3px solid orange;
 }
 #custom_carousel .controls a small {
