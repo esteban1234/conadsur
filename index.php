@@ -179,13 +179,79 @@
       </div>
     </div>
 
+    <h1 class="tit">DESTINOS POPULARES</h1>
+      <hr>
+      <br>
+    <div class="contenslideabajo">
+    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3"><img src="img/cancun.jpg" class="img-responsive"></div>
+                        <div class="col-md-9">
+                            <h2>Cancún</h2>
+                            <p>Podrás encontrar ruinas donde tendrás un atisbo de la cultura maya, como la zona arqueológica El Rey o el Templo del Alacrán (Yamil Lu’um) o disfrutar del espectáculo natural del agua en Xel-Ha, considerado un acuario natural.</p><p>Visitar el Río Secreto te hará reconocer el paso del tiempo y sentir en carne propia el Xibalbá. Xcaret, entre la selva maya y el mar Caribe, te ofrece el parque eco-arqueológico más importante del país. Por tal motivo, Trip Advisor nombró a Cancún como el 2do destino más atractivo para vacacionar en verano en 2016.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div> 
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3"><img src="img/puerto.jpg" class="img-responsive"></div>
+                        <div class="col-md-9">
+                            <h2>Puerto Vallarta</h2>
+                            <p>Dar un paseo, ir de compras y beber tequila por el paseo marítimo del Malecón de Puerto Vallarta es la mejor manera de comenzar tus vacaciones. Luego recorre las calles de piedra de la Viejo Vallarta para explorar el mercado de pulgas con artesanías hechas a mano. Las tranquilas y cálidas aguas de la Bahía de Banderas son excelentes para el buceo o simplemente puedes ver a los artistas que esculpen creaciones espectaculares en la arena.</p><p>El grupo de galerías de arte de El Centro son lugares perfectos para hacer un tour autoguiado de arte.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div> 
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3"><img src="img/acapulco.jpg" class="img-responsive"></div>
+                        <div class="col-md-9">
+                            <h2>Acapulco</h2>
+                            <p>Acapulco es el destino playero que más fama le ha dado a México a nivel internacional gracias a su bello entorno natural, su arena dorada, su clima tropical, sus aguas cálidas y su gente. Obviamente que el sitio es sumamente atractivo para quienes aman el mar, pero no sólo eso, pues cuenta con cosas interesantes que satisfacen todas las aficiones, y todas las edades.</p><p>En La Quebrada, esa piedra saliente de 35 metros de altura a la orilla del mar, verás a los clavadistas caer hacia la noche iluminada por antorchas. La Casa de los Vientos exhibe “La serpiente emplumada”, el mural de Diego Rivera. Barra Vieja te hará recordar la vastedad del mar. La Laguna de Coyuca ofrece una paleta de colores naranjas y rojos al ponerse el sol.</p>
+                        </div>
+                    </div>
+                </div>           
+            </div> 
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3"><img src="img/oaxaca.jpg" class="img-responsive"></div>
+                        <div class="col-md-9">
+                            <h2>Oaxaca</h2>
+                            <p>Cualquier época es buena para visitar Oaxaca. En marzo, por ejemplo, se viste de jacaranda, resaltando el verdor de su característica cantera. Todas las épocas históricas de México: prehispánica, colonial, independiente, moderna y contemporánea se expresan con natural elegancia en los espacios, edificios, calles, museos fantásticos, festivales mágicos, artesanías coloridas, ruinas precolombinas e iglesias barrocas con incrustaciones de oro y en cada rincón de Oaxaca, que la UNESCO denominó Patrimonio Mundial.</p><p>Ecoturismo, lagunas fluorescentes, exuberantes montañas, zonas arqueológicas, tesoros coloniales, cultura, artesanía, gastronomía, folclor, fiestas… todo eso y más te espera en Oaxaca, la 3er mejor ciudad de centro y sudamérica de acuerdo a la revista Travel and Leisure.</p>
+                        </div>
+                    </div>
+                </div>           
+            </div> 
+        <!-- End Item -->
+        </div>
+        <!-- End Carousel Inner -->
+        <div class="controls">
+            <ul class="nav">
+                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="img/cancun2.jpg"><small>Cancún</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="img/puerto2.jpg"><small>Puerto Vallarta</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="img/acapulco2.jpg"><small>Acapulco</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="img/oaxaca2.jpg"><small>Oaxaca</small></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Carousel -->
 
+<p class="boton2"><a href="vistas/contacto.php">Contáctanos</a></p>
 
-<!-- <a class="go-top" href="#">Ir arriba</a>
-<?php include 'vistas/pie.php' ?> -->
+<a class="go-top" href="#">Ir arriba</a>
+<?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/slide.js"></script>
 </body>
 </html>

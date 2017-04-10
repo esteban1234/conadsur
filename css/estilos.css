@@ -6,6 +6,25 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+/*------------------IR ARRIBa------------*/
+
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: #fff;
+    /*background-color: rgb(0, 0, 0, );*/
+    background-color: #C01717;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.go-top:hover {
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: black;
+}
 .contenheader{
 	/*outline: 2px red solid;*/
 	width: 100%;
@@ -264,4 +283,84 @@ hr{
 .icono{
 	text-align: center;
 	color: #1D9A96;
+}
+
+
+
+/*------------------slide abajo de index---------------*/
+.contenslideabajo{
+	/*outline: 2px red solid;*/
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+}
+#custom_carousel .item {
+
+    color:#000;
+    background-color:#eee;
+    padding:20px 0;
+}
+#custom_carousel .controls{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background:#ddd
+}
+#custom_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width:90px
+}
+#custom_carousel .controls li.active {
+    background-color:#eee;
+    border-top:3px solid orange;
+}
+#custom_carousel .controls a small {
+    overflow:hidden;
+    display:block;
+    font-size:10px;
+    margin-top:5px;
+    font-weight:bold
+}
+.boton2{
+    /*outline: 2px red solid;*/
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+.boton2 a{
+    text-decoration: none;
+    color: #fff;
+    background: #000000;
+    padding: 15px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.boton2 a:hover{
+    background-color: rgb(67,67,67);
+}
+/*--------------FOOTER----------*/
+footer{
+	width: 100%;
+    background:#1D9A96;
+    font-family: 'Oswald', sans-serif;
+    height: 80px;
+    /*font-size: 20px;*/
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+    color: #fff;
 }
