@@ -70,12 +70,12 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
                         <div class="carbox">
-                            <a class="img-carbox" href="#">
+                            <a class="img-carbox" href="vistas/contacto.php">
                             <img src="img/autobus.jpg" />
                           </a>
                             <div class="carbox-content">
                                 <h4 class="carbox-title">
-                                    <a href="#"> Renta de Autobús
+                                    <a href="vistas/contacto.php"> Renta de Autobús
                                   </a>
                                 </h4>
                                 <p class="">
@@ -83,7 +83,7 @@
                                 </p>
                             </div>
                             <div class="carbox-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="vistas/contacto.php" class="btn btn-link btn-block">
                                     Contáctanos
                                 </a>
                             </div>
@@ -91,12 +91,12 @@
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="carbox">
-                            <a class="img-carbox" href="#">
+                            <a class="img-carbox" href="vistas/contacto.php">
                             <img src="img/foraneos.jpg" />
                           </a>
                             <div class="carbox-content">
                                 <h4 class="carbox-title">
-                                    <a href="#"> Transporte local, foráneo y empresarial.
+                                    <a href="vistas/contacto.php"> Transporte local, foráneo y empresarial.
                                   </a>
                                 </h4>
                                 <p class="">
@@ -104,7 +104,7 @@
                                 </p>
                             </div>
                             <div class="carbox-read-more">
-                                <a href="http://codepen.io/wisnust10/full/ZWERZK/" class="btn btn-link btn-block">
+                                <a href="vistas/contacto.php" class="btn btn-link btn-block">
                                     Contáctanos
                                 </a>
                             </div>
@@ -112,12 +112,12 @@
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="carbox">
-                            <a class="img-carbox" href="#">
+                            <a class="img-carbox" href="vistas/contacto.php">
                             <img src="img/spinter.jpg" />
                           </a>
                             <div class="carbox-content">
                                 <h4 class="carbox-title">
-                                    <a href="#">Renta sprinter
+                                    <a href="vistas/contacto.php">Renta sprinter
                                   </a>
                                 </h4>
                                 <p class="">
@@ -125,7 +125,7 @@
                                 </p>
                             </div>
                             <div class="carbox-read-more">
-                                <a href="#" class="btn btn-link btn-block">
+                                <a href="vistas/contacto.php" class="btn btn-link btn-block">
                                     Contáctanos
                                 </a>
                             </div>
