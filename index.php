@@ -8,7 +8,34 @@
   </figure>
 
   <article class="pull-right contentextmenu">
-    <strong class="textmenu">MENU</strong>&nbsp;<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+    <strong class="textmenu">MENU</strong>&nbsp;
+    <!--<i class="fa fa-bars fa-3x" aria-hidden="true"></i>-->
+    <div class="header">
+        <a href="#menu">
+            <a href="#menu"><span></span></a>
+        </a>
+		Demo
+	</div>
+
+    <nav id="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><span>About us</span>
+						<ul>
+							<li><a href="#about/history">History</a></li>
+							<li><span>The team</span>
+								<ul>
+									<li><a href="#about/team/management">Management</a></li>
+									<li><a href="#about/team/sales">Sales</a></li>
+									<li><a href="#about/team/development">Development</a></li>
+								</ul>
+							</li>
+							<li><a href="#about/address">Our address</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
   </article>
 </header>
 
@@ -249,7 +276,7 @@
 <a class="go-top" href="#">Ir arriba</a>
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
-<script src="js/menu.js"></script>
+<!--<script src="js/menu.js"></script>-->
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slide.js"></script>
