@@ -73,6 +73,45 @@
 <br>
 <h1 class="tit color">Opciones para tus viajes</h1>
 <hr>
+
+<article class="contenopciones">
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-bus fa-5x" aria-hidden="true"></i></article>
+    <h2>CITY TOUR</h2>
+    <p>Es la opción para hacer recorridos en una ciudad en específico.</p>
+  </div>
+
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-refresh fa-5x" aria-hidden="true"></i></article>
+    <h2>VIAJE REDONDO</h2>
+    <p>Se lleva al grupo a su destino y, el día que tienen programado el regreso, los recoge para llevarlos de vuelta al origen del viaje.</p>
+  </div>
+
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-car fa-5x" aria-hidden="true"></i></article>
+    <h2>TRANSFERS</h2>
+    <p>Es para servicios locales: aeropuerto-hotel-aeropuerto / origen-destino en la misma zona.</p>
+  </div>
+
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-briefcase fa-5x" aria-hidden="true"></i></article>
+    <h2>SERVICIO CON ESTANCIA</h2>
+    <p>El autobús permanece a disposición del grupo durante el periodo del servicio. Incluye varios trayectos programados previamente.</p>
+  </div>
+
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-arrows-h fa-5x" aria-hidden="true"></i></article>
+    <h2>VIAJE CONSECUTIVO</h2>
+    <p>Opción para viajes de ida y vuelta el mismo día.</p>
+  </div>
+
+  <div class="dos">
+    <article class="iconoo"><i class="fa fa-reply-all fa-5x" aria-hidden="true"></i></article>
+    <h2>VIAJE SENCILLO</h2>
+    <p>Esta opción de renta de autobús cubre únicamente el trayecto de ida.</p>
+  </div>
+
+</article>
 </article>
 
 

@@ -2,6 +2,107 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
+<header class="contenheader">
+  <figure class="imagen pull-left">
+    <img src="../img/conadsur.png" class="img-responsive" alt="">
+  </figure>
+
+  <article class="pull-right contentextmenu">
+    <strong class="textmenu">MENU</strong>&nbsp;<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+  </article>
+</header>
+<article class="bannerc">
+  <p>SERVICIO LAS 24 HRS</p>
+
+  <article class="contendirecformu">
+	<article class="direccion">
+		<h2>Estamos a tus ordenes</h2>
+		<article class="telefono">
+			<div class="iconotel"><i class="fa fa-phone fa-5x" aria-hidden="true"></i></div>
+			<article class="num">Pendiente</article class="num">
+		</article>
+
+		<article class="telefono">
+			<div class="iconotel"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></div>
+			<article class="num"><a href="mailto:info@conadsur.com">info@conadsur.com</a></article class="num">
+		</article>
+
+		<article class="telefono">
+			<div class="iconotel"><i class="fa fa-clock-o fa-5x" aria-hidden="true"></i></div>
+			<article class="num">Lunes a Viernes de 9am a 6pm</article class="num">
+		</article>
+
+		<article class="telefono">
+			<div class="iconotel"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i></div>
+			<article class="direc">C.Tajin #619 por esquina Tajin y Matias Romero, Col. Letran Valle, Benito Juarez, México. C.P. 03650.</article class="num">
+		</article>
+	</article>
+	<article class="formulario">
+		<h2>Estamos a tus ordenes, envianos tus comentarios</h2>
+
+
+	<form class="form-horizontal">
+	<br>
+	<br>
+			<fieldset>
+
+			<!-- Form Name -->
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label text-f" for="textinput">Nombre (s)</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu nombre completo" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label text-f" for="textinput">Correo</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu correo" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label text-f" for="textinput">Telefono</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu teléfono" class="form-control input-md" required="">
+			    
+			  </div>
+			</div>
+
+			<!-- Textarea -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label text-f" for="textarea">Comentario</label>
+			  <div class="col-md-6">                     
+			   <textarea class="form-control" id="textarea" name="textarea" placeholder="Escríbenos tus comentarios"></textarea>
+			  </div>
+			</div>
+			
+			<br>
+
+			<!-- Button -->
+			<div class="form-group">
+			  <!-- <label class="col-md-4 control-label text-f" for="singlebutton">Single Button</label> -->
+			  <div class="col-md-4">
+			    <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-lg btn">ENVIAR</button>
+			  </div>
+			</div>
+			<br>
+
+			</fieldset>
+	</form>
+
+	</article>
+</article>
+</article>
+
+
+
     
 	
 <a class="go-top" href="#">Ir arriba</a>
