@@ -23,7 +23,7 @@
 		<script type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
 		<script type="text/javascript">
 			$(function() {
-				$('nav#menu').mmenu({
+				$('div#menu').mmenu({
 					extensions	: [ 'fx-menu-slide', 'shadow-page', 'shadow-panels', 'listview-large', 'pagedim-white' ],
 					iconPanels	: true,
 					counters	: true,

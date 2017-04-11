@@ -8,34 +8,38 @@
   </figure>
 
   <article class="pull-right contentextmenu">
-    <strong class="textmenu">MENU</strong>&nbsp;
+    <!--<strong class="textmenu">MENU</strong>&nbsp;-->
     <!--<i class="fa fa-bars fa-3x" aria-hidden="true"></i>-->
-    <div class="header">
+    <div class="menu">
         <a href="#menu">
-            <a href="#menu"><span></span></a>
+            <button class="hamburger amburger--vortex" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         </a>
-		Demo
 	</div>
 
-    <nav id="menu">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><span>About us</span>
-						<ul>
-							<li><a href="#about/history">History</a></li>
-							<li><span>The team</span>
-								<ul>
-									<li><a href="#about/team/management">Management</a></li>
-									<li><a href="#about/team/sales">Sales</a></li>
-									<li><a href="#about/team/development">Development</a></li>
-								</ul>
-							</li>
-							<li><a href="#about/address">Our address</a></li>
-						</ul>
-					</li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+    <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><span>About us</span>
+                <ul>
+                    <li><a href="#about/history">History</a></li>
+                    <li><span>The team</span>
+                </ul>
+            </li>
+            <li><a href="#about/team/management">Management</a>
+                <ul>
+                    <li><a href="#about/team/sales">Sales</a></li>
+                    <li><a href="#about/team/development">Development</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#about/address">Our address</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
   </article>
 </header>
 
@@ -261,12 +265,12 @@
         </div>
         <!-- End Carousel Inner -->
         <div class="controls">
-            <ul class="nav">
+            <div class="nav">
                 <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="img/cancun2.jpg"><small>Cancún</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="img/puerto2.jpg"><small>Puerto Vallarta</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="img/acapulco2.jpg"><small>Acapulco</small></a></li>
                 <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="img/oaxaca2.jpg"><small>Oaxaca</small></a></li>
-            </ul>
+            </div>
         </div>
     </div>
     <!-- End Carousel -->
@@ -275,7 +279,7 @@
 
 <a class="go-top" href="#">Ir arriba</a>
 <?php include 'vistas/pie.php' ?>
-<script src="js/jquery.js"></script>
+<!--<script src="js/jquery.js"></script>-->
 <!--<script src="js/menu.js"></script>-->
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
