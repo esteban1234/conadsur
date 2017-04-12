@@ -8,7 +8,18 @@
   </figure>
 
   <article class="pull-right contentextmenu">
-    <strong class="textmenu">MENU</strong>&nbsp;<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+      <article class="menu">
+        <ul>
+          <li><a href="../index.php">INICIO</a></li>
+          <li><a href="nosotros.php">QUIENES SOMOS</a></li>
+          <li class="select"><a href="servicios.php">SERVICIOS</a></li>
+          <li><a href="contacto.php">CONTACTO</a></li>
+        </ul>
+        <div id="pull" class="icon-menu">
+          <i id="icon-abierto" class="fa fa-bars" aria-hidden="true"></i>
+          <i id="icon-cerrado" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+      </article>
   </article>
 </header>
 <article class="banners">

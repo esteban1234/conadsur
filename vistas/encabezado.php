@@ -13,17 +13,5 @@
   	<link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
-	<!--<link rel="stylesheet" href="css/responsivo.css">-->
-	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
-
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-      $("#my-menu").mmenu();
-
-      var API = $("#my-menu").data( "mmenu" );
-   });
-	</script>
+	<link rel="stylesheet" href="css/responsivo.css">
 </head>

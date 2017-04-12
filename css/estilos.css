@@ -6,6 +6,79 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+/*********************ESTILO MENU******************/
+
+/**************MENU*****************/
+    .contentextmenu{
+        width: 60%;
+    }
+
+   .menu{
+        height: 100%;
+   }
+
+    .menu ul{
+        height: 100% !important;
+        width: 92%;
+        display: none;
+        float: left;
+    }
+
+    .menu div{
+        float: right;
+    }
+
+    .menu ul li{
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .menu ul li a{
+    text-decoration: none;
+    padding: 20px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+    cursor: pointer;
+    color: #000000;
+    }
+
+    .menu ul li a:hover{
+	    color: white;
+    }
+
+    .menu ul li:hover{
+        border-bottom: 2px #fff solid;
+    }
+
+    .select{
+        color: white;
+	    border-bottom: 2px #fff solid;
+    }
+
+     .icon-menu
+    {
+        cursor: pointer;
+        padding-top: 1.5%;
+    }
+
+    .icon-menu i{
+        font-size: 45px;
+    }
+
+    .icon-menu i{
+        text-align: right;
+    }
+
+    #icon-cerrado
+    {
+        display: none;
+    }
+
+/***********************END ESTILO MENU*******************************/
+
 /*------------------IR ARRIBa------------*/
 
 .go-top {

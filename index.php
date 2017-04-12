@@ -10,13 +10,18 @@
   <article class="pull-right contentextmenu">
     <!--<strong class="textmenu">MENU</strong>&nbsp;-->
     <!--<i class="fa fa-bars fa-3x" aria-hidden="true"></i>-->
-    <nav id="my-menu">
-        <ul id="my-list">
-            <li><a href="/">Home</a></li>
-            <li id="my-item"><a href="/about/">About us</a></li>
-            <li><a href="/contact/">Contact</a></li>
+    <article class="menu">
+        <ul>
+            <li class="select"><a href="index.php">INICIO</a></li>
+            <li><a href="vistas/nosotros.php">QUIENES SOMOS</a></li>
+            <li><a href="vistas/servicios.php">SERVICIOS</a></li>
+            <li><a href="vistas/contacto.php">CONTACTO</a></li>
         </ul>
-    </nav>
+        <div id="pull" class="icon-menu">
+            <i id="icon-abierto" class="fa fa-bars" aria-hidden="true"></i>
+            <i id="icon-cerrado" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </article>
   </article>
 </header>
 
@@ -256,8 +261,8 @@
 
 <a class="go-top" href="#">Ir arriba</a>
 <?php include 'vistas/pie.php' ?>
-<!--<script src="js/jquery.js"></script>-->
-<!--<script src="js/menu.js"></script>-->
+<script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slide.js"></script>
