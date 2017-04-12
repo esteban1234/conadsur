@@ -10,36 +10,13 @@
   <article class="pull-right contentextmenu">
     <!--<strong class="textmenu">MENU</strong>&nbsp;-->
     <!--<i class="fa fa-bars fa-3x" aria-hidden="true"></i>-->
-    <div class="menu">
-        <a href="#menu">
-            <button class="hamburger amburger--vortex" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-        </a>
-	</div>
-
-    <div id="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><span>About us</span>
-                <ul>
-                    <li><a href="#about/history">History</a></li>
-                    <li><span>The team</span>
-                </ul>
-            </li>
-            <li><a href="#about/team/management">Management</a>
-                <ul>
-                    <li><a href="#about/team/sales">Sales</a></li>
-                    <li><a href="#about/team/development">Development</a></li>
-                </ul>
-            </li>
-
-            <li><a href="#about/address">Our address</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <nav id="my-menu">
+        <ul id="my-list">
+            <li><a href="/">Home</a></li>
+            <li id="my-item"><a href="/about/">About us</a></li>
+            <li><a href="/contact/">Contact</a></li>
         </ul>
-    </div>
+    </nav>
   </article>
 </header>
 
