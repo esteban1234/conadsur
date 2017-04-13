@@ -61,35 +61,32 @@
 
 			<!-- Text input-->
 			<div class="form-group">
-			  <label class="col-md-4 control-label text-f" for="textinput">Nombre (s)</label>  
-			  <div class="col-md-6">
-			  <input id="textinput" name="nombre" type="text" placeholder="Escribe tu nombre completo" class="form-control input-md" required="">
-			    
+			  <label class="col-xs-12 col-sm-12 col-md-4 text-f" for="textinput">Nombre (s)</label>  
+			  <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+			  	<input id="textinput" name="nombre" type="text" placeholder="Escribe tu nombre completo" class="form-control input-md" required="">
 			  </div>
 			</div>
 
 			<!-- Text input-->
 			<div class="form-group">
-			  <label class="col-md-4 control-label text-f" for="textinput">Correo</label>  
-			  <div class="col-md-6">
-			  <input id="textinput" name="correo" type="text" placeholder="Escribe tu correo" class="form-control input-md" required="">
-			    
+			  <label class="col-xs-12 col-sm-12 col-md-4 text-f" for="textinput">Correo</label>  
+			  <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-xs-offset-1  col-md-6 col-md-offset-0">
+			  	<input id="textinput" name="correo" type="text" placeholder="Escribe tu correo" class="form-control input-md" required="">
 			  </div>
 			</div>
 
 			<!-- Text input-->
 			<div class="form-group">
-			  <label class="col-md-4 control-label text-f" for="textinput">Telefono</label>  
-			  <div class="col-md-6">
-			  <input id="textinput" name="telefono" type="text" placeholder="Escribe tu teléfono" class="form-control input-md" required="">
-			    
+			  <label class="col-xs-12 col-sm-12 col-md-4 text-f" for="textinput">Telefono</label>  
+			  <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">
+			  	<input id="textinput" name="telefono" type="text" placeholder="Escribe tu teléfono" class="form-control input-md" required="">
 			  </div>
 			</div>
 
 			<!-- Textarea -->
 			<div class="form-group">
-			  <label class="col-md-4 control-label text-f" for="textarea">Comentario</label>
-			  <div class="col-md-6">                     
+			  <label class="col-xs-12 col-sm-12 col-md-4 text-f" for="textarea">Comentario</label>
+			  <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0">                     
 			   <textarea class="form-control" id="textarea" name="comentario" placeholder="Escríbenos tus comentarios"></textarea>
 			  </div>
 			</div>
@@ -98,7 +95,7 @@
 
 			<!-- Button -->
 			<div class="form-group boton">
-			  <div class="col-xs-12 col-md-4">
+			  <div class="col-xs-12 col-md-12 center">
 			    <button type="submit" id="singlebutton" name="singlebutton" class="btn btn-primary btn-lg btne">ENVIAR</button>
 			  </div>
 			</div>
