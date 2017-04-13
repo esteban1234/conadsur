@@ -130,7 +130,109 @@
     }
 
     /**************END NOSOTROS***************/
-    
+
+    /**************DISEÑO SERVICIOS***************/
+    .banners{
+        height: 200px;
+    }
+
+    .banners p{
+        margin-top: 16%;
+        width: 100%;
+    }
+
+    .contenser{
+        width: 85%;
+    }
+
+    .uno{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .uno h2{
+        font-size: 20px;
+    }
+
+    .uno p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .contenopciones .dos{
+        width: 80%;
+        float: none;
+        margin: 5% auto;
+        padding: 15px;
+    }
+
+    .iconoo i{
+        font-size: 35px;
+    }
+
+    .dos h2{
+        font-size: 20px;
+    }
+
+    .dos p{
+        text-align: justify;
+    }
+    /**************END SERVICIOS***************/
+
+    /**************DISEÑO CONTACTO***************/
+    .bannerc{
+        height: 100%;
+    }
+
+    .bannerc p{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .direccion{
+        width: 95%;
+        margin: auto;
+        float: none;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+
+    .direccion h2{
+        font-size: 20px;
+    }
+
+    .iconotel i{
+        font-size: 25px;
+    }
+
+    .num, .direc{
+        font-size: 20px;
+    }
+
+    .direc{
+        text-align: justify;
+    }
+
+    .formulario{
+        width: 95%;
+        margin-bottom: 10%;
+        float: none;
+    }
+
+     .formulario h2{
+        font-size: 20px;
+    }
+
+    .boton{
+        text-align: center;
+    }
+
+    .btne{
+        margin: 0px;
+    }
+
+    /****************END CONTACTO***************/
+
     /*************DISEÑO PIE*****************/
     footer p{
         font-size: 18px;
@@ -270,6 +372,109 @@
 
     /**************END NOSOTROS***************/
 
+    /**************DISEÑO SERVICIOS***************/
+    .banners{
+        height: 250px;
+    }
+
+    .banners p{
+        margin-top: 16%;
+        width: 100%;
+    }
+
+    .contenser{
+        width: 85%;
+    }
+
+    .uno{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .uno h2{
+        font-size: 20px;
+    }
+
+    .uno p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .contenopciones .dos{
+        width: 80%;
+        float: none;
+        margin: 5% auto;
+        padding: 15px;
+    }
+
+    .iconoo i{
+        font-size: 35px;
+    }
+
+    .dos h2{
+        font-size: 20px;
+    }
+
+    .dos p{
+        text-align: justify;
+    }
+    /**************END SERVICIOS***************/
+
+    /**************DISEÑO CONTACTO***************/
+    .bannerc{
+        height: 100%;
+    }
+
+    .bannerc p{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .direccion{
+        width: 95%;
+        margin: auto;
+        float: none;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+
+    .direccion h2{
+        font-size: 20px;
+    }
+
+    .iconotel i{
+        font-size: 30px;
+    }
+
+    .num, .direc{
+        font-size: 25px;
+    }
+
+    .direc{
+        text-align: justify;
+    }
+
+    .formulario{
+        width: 95%;
+        margin-bottom: 10%;
+        float: none;
+    }
+
+     .formulario h2{
+        font-size: 20px;
+    }
+
+    .boton{
+        text-align: center;
+    }
+
+    .btne{
+        margin: 0px;
+    }
+
+    /****************END CONTACTO***************/
+
+
      /*************DISEÑO PIE*****************/
     footer p{
         font-size: 20px;
@@ -403,6 +608,108 @@
 
     /**************END NOSOTROS***************/
 
+    /**************DISEÑO SERVICIOS***************/
+    .banners{
+        height: 300px;
+    }
+
+    .banners p{
+        margin-top: 16%;
+        width: 100%;
+    }
+
+    .contenser{
+        width: 85%;
+    }
+
+    .uno{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .uno h2{
+        font-size: 20px;
+    }
+
+    .uno p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .contenopciones .dos{
+        width: 80%;
+        float: none;
+        margin: 5% auto;
+        padding: 15px;
+    }
+
+    .iconoo i{
+        font-size: 35px;
+    }
+
+    .dos h2{
+        font-size: 20px;
+    }
+
+    .dos p{
+        text-align: justify;
+    }
+    /**************END SERVICIOS***************/
+
+     /**************DISEÑO CONTACTO***************/
+    .bannerc{
+        height: 100%;
+    }
+
+    .bannerc p{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .direccion{
+        width: 80%;
+        margin: auto;
+        float: none;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+
+    .direccion h2{
+        font-size: 20px;
+    }
+
+    .iconotel i{
+        font-size: 30px;
+    }
+
+    .num, .direc{
+        font-size: 25px;
+    }
+
+    .direc{
+        text-align: justify;
+    }
+
+    .formulario{
+        width: 80%;
+        margin-bottom: 10%;
+        float: none;
+        margin: auto;
+    }
+
+     .formulario h2{
+        font-size: 20px;
+    }
+
+    .boton{
+        text-align: center;
+    }
+
+    .btne{
+        margin: 0px;
+    }
+
+    /****************END CONTACTO***************/
 
      /*************DISEÑO PIE*****************/
     footer p{
@@ -483,6 +790,100 @@
 
     /**************END NOSOTROS***************/
 
+    /**************DISEÑO SERVICIOS***************/
+    .banners{
+        height: 350px;
+    }
+
+    .banners p{
+        margin-top: 16%;
+        width: 100%;
+    }
+
+    .contenser{
+        width: 100%;
+        text-align: center;
+    }
+
+    .uno{
+        width: 32%;
+        margin: 1% auto;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .uno h2{
+        font-size: 20px;
+    }
+
+    .uno p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .contenopciones{
+        text-align: center;
+    }
+
+    .contenopciones .dos{
+        width: 32%;
+        float: none;
+        margin: 1% auto;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .iconoo i{
+        font-size: 35px;
+    }
+
+    .dos h2{
+        font-size: 20px;
+    }
+
+    /**************END SERVICIOS***************/
+
+    /**************DISEÑO CONTACTO***************/
+    .bannerc{
+        height: 100%;
+    }
+    .bannerc p{
+        font-size: 30px;
+    }
+
+    .direccion{
+        width: 45%;
+    }
+
+    .direccion h2, .formulario h2{
+        font-size: 20px;
+    }
+
+    .num, .direc{
+        font-size: 25px;
+    }
+
+    .formulario{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+
+
+    .iconotel i{
+        font-size: 25px;
+    }    
+
+    .boton{
+        text-align: center;
+    }
+
+    .btne{
+        margin: 0px;
+    }
+
+    /****************END CONTACTO***************/
+
      /*************DISEÑO PIE*****************/
     footer p{
         margin-top: 3%;
@@ -529,6 +930,61 @@
         margin-top: 16%;
         width: 50%;
     }
+
+    /**************DISEÑO SERVICIOS***************/
+    
+    .contenser{
+        width: 100%;
+        text-align: center;
+    }
+
+    .uno{
+        width: 30%;
+        margin: 1% auto;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+
+    
+
+    .contenopciones{
+        text-align: center;
+    }
+
+    .contenopciones .dos{
+        width: 30%;
+        float: none;
+        margin: 1% 1%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .dos h2{
+        font-size: 20px;
+    }
+
+    /**************END SERVICIOS***************/
+
+    /**************DISEÑO CONTACTO***************/
+
+    .direccion{
+        width: 50%;
+    }
+    
+    .formulario{
+        width: 45%;
+    }
+
+    .boton{
+        text-align: center;
+    }
+
+   
+
+    /**************END CONTACTO***************/
+
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
