@@ -21,7 +21,7 @@ $mail->addAddress("ballina.santiago@gmail.com");
 
 $mail->isHTML(true);
 
-$mail->Subject = "Cotización MATENDA";
+$mail->Subject = "Cotización CONADSUR";
 $mail->Body = "
               <b>Telefono: </b>.$telefono.<br/>
               <b>Comentario: </b>.$comentario.<br/>";

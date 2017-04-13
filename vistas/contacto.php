@@ -52,7 +52,7 @@
 		<h2>Estamos a tus ordenes, envianos tus comentarios</h2>
 
 
-	<form class="form-horizontal">
+	<form action="envia.php" method="post" class="form-horizontal" >
 	<br>
 	<br>
 			<fieldset>
@@ -63,7 +63,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label text-f" for="textinput">Nombre (s)</label>  
 			  <div class="col-md-6">
-			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu nombre completo" class="form-control input-md" required="">
+			  <input id="textinput" name="nombre" type="text" placeholder="Escribe tu nombre completo" class="form-control input-md" required="">
 			    
 			  </div>
 			</div>
@@ -72,7 +72,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label text-f" for="textinput">Correo</label>  
 			  <div class="col-md-6">
-			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu correo" class="form-control input-md" required="">
+			  <input id="textinput" name="correo" type="text" placeholder="Escribe tu correo" class="form-control input-md" required="">
 			    
 			  </div>
 			</div>
@@ -81,7 +81,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label text-f" for="textinput">Telefono</label>  
 			  <div class="col-md-6">
-			  <input id="textinput" name="textinput" type="text" placeholder="Escribe tu teléfono" class="form-control input-md" required="">
+			  <input id="textinput" name="telefono" type="text" placeholder="Escribe tu teléfono" class="form-control input-md" required="">
 			    
 			  </div>
 			</div>
@@ -90,7 +90,7 @@
 			<div class="form-group">
 			  <label class="col-md-4 control-label text-f" for="textarea">Comentario</label>
 			  <div class="col-md-6">                     
-			   <textarea class="form-control" id="textarea" name="textarea" placeholder="Escríbenos tus comentarios"></textarea>
+			   <textarea class="form-control" id="textarea" name="comentario" placeholder="Escríbenos tus comentarios"></textarea>
 			  </div>
 			</div>
 			
